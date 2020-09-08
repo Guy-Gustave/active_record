@@ -17,25 +17,22 @@ This project puts our knowledge of active record, models, and associations to th
   Ruby on Rails
 
   ## 🔨 Setup    <a name = "setup"></a>
+- <code>$`cd` inside the directory<code> 
 - Clone the project from github using
-- <code>$ https://github.com/Guy-Gustave/active_record/tree/feature_branch</code>
-- <code>cd active_record</code>
+- <code>$ git clone https://github.com/Guy-Gustave/active_record/tree/feature_branch</code>
+- <code>$ cd active_record</code>
 - <code>$ bundle install</code>
-  
-## Instructions to use the web application
-1. Clone the repository to your local machine.
+- <code>$ bin/rails db:migrate</code>
+- <code>$ bin/rails console</code>
+ 
 
-2. `cd` inside the 'active_record' directory
-
-3. Go to terminal and run `bin/rails console`
-
-4. run the command below
+- run the command below
   - u2 = User.find(2)
   - c1 = u2.comments.first
   - c1.user
-  -p1 = Post.first
-  -p1.comments.first
-  -c1.post
+  - p1 = Post.first
+  - p1.comments.first
+  - c1.post
 
 ## Authors
 👨 **Guy Gustave NIGABA**
